@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100%;
+    height: 100%;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #1282A2;
+    font-family: "Nunito", sans-serif;
+
+}
+
+#mainNavbar .navbar-brand {
+    color: #FAF9F9;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+#mainNavbar .nav-link {
+    color: #FAF9F9;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #0A1128;
+}
+
+li {
+    padding-top: 0.25rem;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#minh,
+#phan,
+#slash {
+    font-weight: bold;
+    color: #FAF9F9;
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+
+    #minh,
+    #phan,
+    #slash {
+        font-weight: bold;
+        font-size: 3rem;
+    }
+}
+
+#slash {
+    font-size: 2rem;
+    color: #FAF9F9;
+    font-weight: 100;
+}
+
+#minh {
+    position: relative;
+    right: 70px;
+    top: 20px;
+}
+
+#phan {
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+}
+
+#header {
+    font-weight: 900;
+}
+
+#stretch {
+    width: 100%;
+    display: block;
+}
+
+.blurb h2 {
+    color: #FAF9F9;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #FAF9F9;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+/* .content {
+    margin-top: 100px;
+} */
+
+
+
+.one {
+    background-color: #034078;
+    padding: 30px;
+}
+
+.two {
+    background-color: #001F54;
+    padding: 30px;
+}
+
+.three {
+    background-color: #034078;
+    padding: 30px;
+}
+
+.content {
+    max-width: 95%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header {
+    background-color: #0A1128;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar.scrolled {
+    background: #106a83;
+    transition: background 500ms;
+}
+
+.first {
+    margin-top: 60px;
+    line-height: 2;
+}
